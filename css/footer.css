@@ -22,7 +22,7 @@ ul {
 
 .footer {
     position: relative;
-    background-color: black;
+    background-color: white;
     padding: 70px 0px;
     bottom: 0;
 
@@ -40,7 +40,7 @@ ul {
 
 .footer-column h4 {
     font-size: 19px;
-    color: white;
+    color: black;
     text-transform: capitalize;
     margin-bottom: 25px;
     font-weight: 500;
@@ -57,7 +57,7 @@ ul {
 }
 
 .footer-column ul li a {
-    color: white;
+    color: black;
     transition: all 0.3s ease;
 }
 
@@ -87,10 +87,6 @@ ul {
 .footer-column img{
     width: 20px;
     height: 20px;
-}
-
-@media(max-width: 800px) {
-    
 }
 
 

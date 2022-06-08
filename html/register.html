@@ -4,9 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Furnid</title>
 </head>
 <body>
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo-container">
+                <a href="./home.html"><h1>Furnid</h1></a>
+            </div>
+            <ul class="navigation-bar">
+                <a href="./home.html"><li>Home</li></a>
+                <a href="./furnitures.html"><li>Furnitures</li></a>
+                <a href="./register.html"><li>Register</li></a>
+            </ul>
+        </div>
+    </div>
     
+    <div class="form-container">
+        <div class="form" id="form">
+            <h1>Register</h1>
+            <form action="./home.html">
+            <div class="input">
+                <input type="text" id="name" placeholder="Full Name" required>
+            </div>
+            <div class="input">
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input">
+                <input type="text" id="country" placeholder="Country" required>
+            </div>
+            <div class="input">
+                <input type="number" id="phone-number"placeholder="Phone Number" required>
+            </div>
+            <div class="agree-box">
+                <input id="check-box" type="checkbox"/>
+                <label for="checkbox">I agree to these terms and conditions</label>
+            </div>
+            <input class="sub-btn" type="submit" value="Register">
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="row">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Privacy Notices</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Order Status</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="./furnitures.html#sofa-content">Sofa</a></li>
+                        <li><a href="./furnitures.html#table-content">Table</a></li>
+                        <li><a href="./furnitures.html#bed-content">Bed</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <div class ="social-media">
+                        <a href="https://id-id.facebook.com/IKEAindonesia/"><img src="../images/footer/facebook-logo.png"></img></a>
+                        <a href="https://twitter.com/IKEA_Ind?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../images/footer/twitter-logo.png"></img></a>
+                        <a href="https://www.instagram.com/ikea_id/channel/?hl=id"><img src="../images/footer/instagram-logo.png"></img></a>
+                        <a href="https://www.youtube.com/c/IKEAIndonesia_ID"><img src="../images/footer/youtube-logo.png"></img></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
 </html>

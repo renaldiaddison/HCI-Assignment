@@ -1,0 +1,65 @@
+@font-face {
+    font-family: logo font;
+    src: url(../fonts/font-logo.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+.banner {
+    position: relative;
+    background: url("../images/assets/background\ 1.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.banner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+
+}
+
+.banner-container h1{
+    margin: 0;
+    font-size: 90px;
+}
+
+.banner-container h1 span {
+    font-family: logo font;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+}
+
+.slogan {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+    text-shadow: 1px 1px 10px rgb(184, 184, 184);
+}
+
+.button {
+    color: black;
+    font-size: 18px;
+    transition: ease 1s;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
