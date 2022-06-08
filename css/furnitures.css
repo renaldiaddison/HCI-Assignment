@@ -1,7 +1,7 @@
 .container {
     font-family: 'Fira Sans', sans-serif;
     border: 2px solid #ddd;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
     background: url(../images/assets/background\ 2.jpg);
     background-size: cover;
 }
@@ -20,7 +20,7 @@
 }
 
 .card {
-    border-radius: 5px;
+    border-radius: 10px;
     width: 30%;
     cursor: pointer;
     transition: ease-in-out 300ms;
@@ -28,14 +28,19 @@
     background-color: white;
 }
 
-.card:hover {
+/* .card:hover {
     width: 31%;
     transition: ease 0.3s;
-}
+} */
 
 .card img {
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
+    transition: ease-in-out 300ms;
+}
+
+.card img:hover {
+    width: 95%;
 }
 
 .card div {
