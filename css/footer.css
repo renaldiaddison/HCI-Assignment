@@ -42,7 +42,7 @@ ul {
     font-size: 19px;
     color: black;
     text-transform: capitalize;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-weight: 500;
     position: relative;
     text-decoration: underline;
@@ -62,8 +62,7 @@ ul {
 }
 
 .footer-column ul li a:hover {
-    color: gray;
-    padding-left: 8px;
+    text-decoration: underline;
 }
 
 .social-media a{
@@ -81,7 +80,7 @@ ul {
 }
 
 .social-media a:hover {
-    background-color: white;
+    background-color: black;
 }
 
 .footer-column img{
